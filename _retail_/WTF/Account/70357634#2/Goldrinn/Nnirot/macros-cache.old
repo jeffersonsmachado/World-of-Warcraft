@@ -1,0 +1,24 @@
+VER 3 0100000000000003 " " "132365"
+#showtooltip Avatar
+/castsequence reset=combat  Grito de Batalha, Avatar, Alvoroço, Fúria de Odyn(Artefato), Golpe Furioso, Sede de Sangue, Corte Furioso
+END
+VER 3 0100000000000002 "Opening" "132365"
+/lançar Investida
+/lançar Grito de Batalha
+/lançar Avatar
+/lançar Alvoroço
+/lançar Fúria de Odyn(Artefato)
+/lançar Golpe Furioso
+/lançar Sede de Sangue
+/lançar Corte Furioso
+END
+VER 3 0100000000000004 "VuhDoDCShieldData" "Ability_Repair"
+P1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000005 "VuhDoDCShieldNames" "Ability_Repair"
+NSky[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Nni[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000001 "ZGVMacro1" "0"
+/target Fiona
+/run ZGV:MRM():CG(1,1)
+END

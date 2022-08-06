@@ -1,0 +1,101 @@
+
+Details_StreamerDB = {
+	["characters"] = {
+		["Jouw - Stormrage"] = "Törinn - Goldrinn",
+		["Yvenger - Stormrage"] = "Törinn - Goldrinn",
+		["Eraldd - Goldrinn"] = "Törinn - Goldrinn",
+		["Hokuai - Goldrinn"] = "Törinn - Goldrinn",
+		["Gehdo - Stormrage"] = "Törinn - Goldrinn",
+		["Tironn - Goldrinn"] = "Törinn - Goldrinn",
+		["Jedo - Stormrage"] = "Törinn - Goldrinn",
+		["Lateef - Goldrinn"] = "Törinn - Goldrinn",
+		["Lüan - Goldrinn"] = "Törinn - Goldrinn",
+		["Xiahomem - Stormrage"] = "Törinn - Goldrinn",
+		["Nniroh - Stormrage"] = "Törinn - Goldrinn",
+		["Pristo - Goldrinn"] = "Törinn - Goldrinn",
+		["Myron - Goldrinn"] = "Törinn - Goldrinn",
+		["Nniro - Stormrage"] = "Törinn - Goldrinn",
+		["Törinn - Stormrage"] = "Törinn - Goldrinn",
+		["Huori - Goldrinn"] = "Törinn - Goldrinn",
+		["Allamar - Goldrinn"] = "Törinn - Goldrinn",
+		["Lweng - Goldrinn"] = "Törinn - Goldrinn",
+		["Erold - Goldrinn"] = "Törinn - Goldrinn",
+		["Zhuy - Goldrinn"] = "Törinn - Goldrinn",
+		["Törinn - Goldrinn"] = "Törinn - Goldrinn",
+		["Nnirot - Goldrinn"] = "Törinn - Goldrinn",
+		["Hyonu - Goldrinn"] = "Törinn - Goldrinn",
+		["Nnibop - Goldrinn"] = "Törinn - Goldrinn",
+		["Pocpoc - Stormrage"] = "Törinn - Goldrinn",
+	},
+	["profiles"] = {
+		["Törinn - Goldrinn"] = {
+			["use_square_mode"] = true,
+			["is_first_run"] = false,
+			["grow_direction"] = "right",
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				394.1476745605469, -- [1]
+				59.77783966064453, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 141.4739868281032,
+				["radius"] = 160,
+				["hide"] = false,
+			},
+			["arrow_anchor_y"] = 0,
+			["arrow_anchor_x"] = 0,
+			["main_frame_locked"] = true,
+			["row_texture"] = "Details Serenity",
+			["author"] = "Details! Team",
+			["font_size"] = 10,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["square_amount"] = 6.5699782371521,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["use_spark"] = true,
+			["row_spacement"] = 22.85619354248047,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = 6.103515625e-05,
+				["x"] = -0.00030517578125,
+				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
+			},
+			["y"] = 185.9981994628906,
+			["x"] = -13.0399169921875,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 63.71538925170898,
+			["point"] = "BOTTOMRIGHT",
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["row_height"] = 17.29256057739258,
+			["scale"] = 1,
+		},
+	},
+}

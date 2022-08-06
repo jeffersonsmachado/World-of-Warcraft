@@ -1,0 +1,162 @@
+
+OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "9.2.0",
+	},
+	["profileKeys"] = {
+		["Nniroh - Stormrage"] = "Default",
+		["Xiahomem - Stormrage"] = "Default",
+		["Yvenger - Stormrage"] = "Default",
+		["Eraldd - Goldrinn"] = "Padrão",
+		["Pocpoc - Stormrage"] = "Default",
+		["Gehdo - Stormrage"] = "Default",
+		["Tironn - Goldrinn"] = "Padrão",
+		["Törinn - Goldrinn"] = "Padrão",
+		["Jedo - Stormrage"] = "Default",
+		["Allamar - Goldrinn"] = "Default",
+		["Jouw - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Padrão"] = {
+			["rules"] = {
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Aura", -- [1]
+						"Buff", -- [2]
+						"Debuff", -- [3]
+					},
+					["name"] = "Auras",
+					["id"] = "auras",
+				}, -- [1]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Plate", -- [1]
+					},
+					["name"] = "Placas de identificação",
+					["id"] = "plates",
+				}, -- [2]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"ActionButton", -- [1]
+					},
+					["name"] = "Barras de ações",
+					["id"] = "actions",
+				}, -- [3]
+			},
+			["themes"] = {
+				["Padrão"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["seconds"] = {
+							["scale"] = 0.5,
+						},
+						["soon"] = {
+							["scale"] = 2,
+						},
+					},
+					["fontFace"] = "Interface\\AddOns\\ElvUI\\Media\\Fonts\\Expressway.ttf",
+					["minDuration"] = 5,
+					["minSize"] = 0.8,
+					["minEffectDuration"] = 5,
+					["fontSize"] = 13,
+					["fontShadow"] = {
+						["b"] = 0,
+						["g"] = 0,
+						["r"] = 0,
+					},
+				},
+				["Default"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+					},
+				},
+			},
+		},
+		["Default"] = {
+			["rules"] = {
+				{
+					["patterns"] = {
+						"Plate", -- [1]
+					},
+					["name"] = "Unit Nameplates",
+					["id"] = "plates",
+				}, -- [1]
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 4,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [2]
+				{
+					["patterns"] = {
+						"Aura", -- [1]
+						"Buff", -- [2]
+						"Debuff", -- [3]
+					},
+					["id"] = "Auras",
+					["priority"] = 3,
+				}, -- [3]
+			},
+			["themes"] = {
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+				["Default"] = {
+					["textStyles"] = {
+						["soon"] = {
+							["b"] = 0.3764705882352941,
+							["scale"] = 1.1,
+							["g"] = 0.3607843137254902,
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["hours"] = {
+							["scale"] = 0.6600025296211243,
+						},
+					},
+					["tenthsDuration"] = 5,
+					["minSize"] = 0.6,
+					["mmSSDuration"] = 120,
+					["effect"] = "flare",
+					["maxDuration"] = 420,
+					["minEffectDuration"] = 15,
+					["fontSize"] = 17,
+				},
+				["Padrão"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

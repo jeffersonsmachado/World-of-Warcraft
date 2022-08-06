@@ -1,0 +1,10 @@
+
+MBFDB = {
+	["profileKeys"] = {
+		["Yvenger - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

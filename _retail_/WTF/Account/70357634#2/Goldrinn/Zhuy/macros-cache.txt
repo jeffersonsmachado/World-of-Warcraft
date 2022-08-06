@@ -1,0 +1,53 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][][@player]  Palavra de Poder: Escudo
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast  [@mouseover,help,nodead][help,nodead][@player]  Recomposição Sombria
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player] Súplica
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Palavra Sombria: Dor
+/cast [@mouseover,harm,nodead][]Palavra Sombria: Dor
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Palavra Sombria: Morte
+/cast [@mouseover,harm,nodead][] Palavra Sombria: Morte
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Toque Vampírico
+/cast [@mouseover,harm,nodead][] Toque Vampírico
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Erupção do Caos
+/cast [@mouseover,harm,nodead][] Erupção do Caos
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast Levitar
+/cancelaura Levitar
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Demônio das Sombras
+/petdefensive
+/petattack
+/yell VAI CAPETAAAAAA
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead][@player]  Purificar
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/gritar HANA MATANKARANIA SHARASUBIA
+/cast Submissão à Loucura
+END
+VER 3 010000000000000D "Void" "1035040"
+#showtooltip Void Eruption
+/cast [@mouseover,harm,nodead][@target] Void Eruption
+END

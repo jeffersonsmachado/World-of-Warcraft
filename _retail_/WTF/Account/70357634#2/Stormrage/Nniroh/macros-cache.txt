@@ -1,0 +1,8 @@
+VER 3 0100000000000002 " BoS" "INV_MISC_QUESTIONMARK"
+#showtooltip Breath of Sindragosa
+/castsequence Raise Dead, Empower Rune Weapon, Remorseless Winter, Pillar of Frost, Breath of Sindragosa, Swarming Mist(Venthyr), Frostwyrm's Fury,
+END
+VER 3 0100000000000001 "DT" "INV_MISC_QUESTIONMARK"
+#showtooltip Dark Transformation
+/castsequence Unholy Blight,  Dark Transformation
+END

@@ -1,0 +1,36 @@
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover, exists, nodead, harm] Judgment; [@target, exists, nodead, harm] Judgment; Judgment
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Holy Light; [@target, help, nodead, exists] Holy Light; Holy Light
+END
+VER 3 0100000000000005 " HS" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, exists, nodead] Holy Shock; [@target, exists, nodead] Holy Shock; Holy Shock
+END
+VER 3 0100000000000002 "[B] MO" "INV_MISC_QUESTIONMARK"
+/cast [@mouseove, @harm] 
+END
+VER 3 0100000000000004 "B1" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead] Beacon of Light; Beacon of Light
+END
+VER 3 0100000000000001 "B2" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, nodead, help] Beacon of Faith; Beacon of Faith
+END
+VER 3 010000000000000C "BoF" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Blessing of Freedom; [@target, help, nodead, exists] Blessing of Freedom; Blessing of Freedom
+END
+VER 3 0100000000000007 "BoP" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Blessing of Protection; [@target, help, nodead, exists] Blessing of Protection; Blessing of Protection
+END
+VER 3 0100000000000009 "BoS" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Blessing of Sacrifice; [@target, help, nodead, exists] Blessing of Sacrifice; Blessing of Sacrifice
+END
+VER 3 0100000000000003 "Bubble" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Divine Shield; [@target, help, nodead, exists] Divine Shield; Divine Shield
+END
+VER 3 010000000000000A "FoL" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Flash of Light; [@target, help, nodead, exists] Flash of Light; Flash of Light
+END
+VER 3 0100000000000008 "LoH" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Lay on Hands; [@target, help, nodead, exists] Lay on Hands; Lay on Hands
+END

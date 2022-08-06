@@ -1,0 +1,12 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Vanish
+/cast Vanish
+/cast Shadowstrikewd
+END
+VER 3 0100000000000001 "OneClick" "INV_WEAPON_RIFLE_01"
+#showtooltip
+/cast [@mouseover] Pistol Shot
+END
+VER 3 0100000000000003 "Opener" "132122"
+/castsequence Shadow Blades, Shadowstrike, Nightblade, Symbols of Death, Shadow Dance, Shadowstrike, Shadowstrike, Eviscerate,  Shadowstrike, Vanish, Shadowstrike, Death from Above, Shadow Dance, Shadowstrike, Shadowstrike, Eviscerate
+END

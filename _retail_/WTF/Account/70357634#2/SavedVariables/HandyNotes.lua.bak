@@ -1,0 +1,73 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Jouw - Stormrage",
+		["Xiahomem - Stormrage"] = "Xiahomem - Stormrage",
+		["Yvenger - Stormrage"] = "Yvenger - Stormrage",
+		["Eraldd - Goldrinn"] = "Eraldd - Goldrinn",
+		["Pocpoc - Stormrage"] = "Pocpoc - Stormrage",
+		["Gehdo - Stormrage"] = "Gehdo - Stormrage",
+		["Tironn - Goldrinn"] = "Tironn - Goldrinn",
+		["Jedo - Stormrage"] = "Jedo - Stormrage",
+		["Allamar - Goldrinn"] = "Allamar - Goldrinn",
+		["Nniroh - Stormrage"] = "Nniroh - Stormrage",
+	},
+	["profiles"] = {
+		["Jouw - Stormrage"] = {
+		},
+		["Xiahomem - Stormrage"] = {
+		},
+		["Yvenger - Stormrage"] = {
+		},
+		["Eraldd - Goldrinn"] = {
+		},
+		["Pocpoc - Stormrage"] = {
+		},
+		["Gehdo - Stormrage"] = {
+		},
+		["Tironn - Goldrinn"] = {
+		},
+		["Jedo - Stormrage"] = {
+		},
+		["Allamar - Goldrinn"] = {
+		},
+		["Nniroh - Stormrage"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Jouw - Stormrage",
+		["Xiahomem - Stormrage"] = "Xiahomem - Stormrage",
+		["Yvenger - Stormrage"] = "Yvenger - Stormrage",
+		["Eraldd - Goldrinn"] = "Eraldd - Goldrinn",
+		["Pocpoc - Stormrage"] = "Pocpoc - Stormrage",
+		["Gehdo - Stormrage"] = "Gehdo - Stormrage",
+		["Tironn - Goldrinn"] = "Tironn - Goldrinn",
+		["Jedo - Stormrage"] = "Jedo - Stormrage",
+		["Allamar - Goldrinn"] = "Allamar - Goldrinn",
+		["Nniroh - Stormrage"] = "Nniroh - Stormrage",
+	},
+	["profiles"] = {
+		["Jouw - Stormrage"] = {
+		},
+		["Xiahomem - Stormrage"] = {
+		},
+		["Yvenger - Stormrage"] = {
+		},
+		["Eraldd - Goldrinn"] = {
+		},
+		["Pocpoc - Stormrage"] = {
+		},
+		["Gehdo - Stormrage"] = {
+		},
+		["Tironn - Goldrinn"] = {
+		},
+		["Jedo - Stormrage"] = {
+		},
+		["Allamar - Goldrinn"] = {
+		},
+		["Nniroh - Stormrage"] = {
+		},
+	},
+}

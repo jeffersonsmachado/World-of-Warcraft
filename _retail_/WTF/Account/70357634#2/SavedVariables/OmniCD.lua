@@ -1,0 +1,176 @@
+
+OmniCDDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Default",
+		["Yvenger - Stormrage"] = "Default",
+		["Eraldd - Goldrinn"] = "Default",
+		["Hokuai - Goldrinn"] = "Default",
+		["Gehdo - Stormrage"] = "Default",
+		["Tironn - Goldrinn"] = "Default",
+		["Jedo - Stormrage"] = "Default",
+		["Lateef - Goldrinn"] = "Default",
+		["Lüan - Goldrinn"] = "Default",
+		["Nniroh - Stormrage"] = "Default",
+		["Pristo - Goldrinn"] = "Default",
+		["Myron - Goldrinn"] = "Default",
+		["Nniro - Stormrage"] = "Default",
+		["Pocpoc - Stormrage"] = "Default",
+		["Huori - Goldrinn"] = "Default",
+		["Zhuy - Goldrinn"] = "Default",
+		["Lweng - Goldrinn"] = "Default",
+		["Allamar - Goldrinn"] = "Default",
+		["Nnirot - Goldrinn"] = "Default",
+		["Törinn - Goldrinn"] = "Default",
+		["Erold - Goldrinn"] = "Default",
+		["Hyonu - Goldrinn"] = "Default",
+		["Törinn - Stormrage"] = "Default",
+		["Xiahomem - Stormrage"] = "Default",
+	},
+	["global"] = {
+		["disableElvMsg"] = true,
+		["oodChk"] = 220803,
+		["oodVer"] = 9252720,
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+		["BattleRes"] = {
+		},
+	},
+	["version"] = 2.51,
+	["cooldowns"] = {
+		[307192] = {
+			["type"] = "trinket",
+			["buff"] = 307192,
+			["duration"] = {
+				["default"] = 300,
+			},
+			["custom"] = true,
+			["name"] = "Spiritual Healing Potion",
+			["class"] = "TRINKET",
+			["charges"] = {
+				["default"] = 5,
+			},
+			["icon"] = 1385333,
+			["spellID"] = 307192,
+		},
+		[6262] = {
+			["type"] = "trinket",
+			["buff"] = 6262,
+			["duration"] = {
+				["default"] = 60,
+			},
+			["custom"] = true,
+			["name"] = "Healthstone",
+			["class"] = "TRINKET",
+			["charges"] = {
+				["default"] = 3,
+			},
+			["icon"] = 538745,
+			["spellID"] = 6262,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Party"] = {
+				["party"] = {
+					["general"] = {
+						["showPlayer"] = true,
+					},
+					["spells"] = {
+						["31935"] = false,
+						["307192"] = true,
+						["119898"] = false,
+						["2565"] = true,
+						["57994"] = false,
+						["336126"] = false,
+						["196029"] = false,
+						["212619"] = false,
+						["15487"] = false,
+						["183752"] = false,
+						["106839"] = false,
+						["5246"] = false,
+						["215652"] = false,
+						["59752"] = false,
+						["47528"] = false,
+						["6262"] = false,
+						["50334"] = true,
+						["336135"] = false,
+						["116705"] = false,
+						["2139"] = false,
+						["96231"] = false,
+						["179057"] = false,
+						["1766"] = false,
+						["187707"] = false,
+						["2094"] = false,
+						["1160"] = true,
+						["1856"] = false,
+						["319454"] = true,
+						["106951"] = false,
+						["323436"] = false,
+						["47482"] = false,
+						["147362"] = false,
+						["325727"] = false,
+						["6552"] = false,
+						["190456"] = true,
+						["78675"] = false,
+						["323764"] = true,
+					},
+					["icons"] = {
+						["scale"] = 0.8800000000000001,
+						["borderPixels"] = 3,
+					},
+					["position"] = {
+						["offsetX"] = 10,
+						["anchor"] = "TOPRIGHT",
+						["paddingY"] = 0,
+						["attachMore"] = "TOPLEFT",
+						["columns"] = 20,
+						["paddingX"] = 2,
+						["attach"] = "TOPLEFT",
+						["uf"] = "blizz",
+						["preset"] = "manual",
+						["offsetY"] = 13,
+						["anchorMore"] = "TOPRIGHT",
+					},
+					["manualPos"] = {
+						{
+							["y"] = 384.3499812475275,
+							["x"] = 682.3166570813883,
+						}, -- [1]
+						["interruptBar"] = {
+							["y"] = 117.6836527810156,
+							["x"] = 286.2272992027265,
+						},
+						["raidCDBar"] = {
+							["y"] = 159.6394214146576,
+							["x"] = 832.7112529088554,
+						},
+					},
+				},
+				["noneZoneSetting"] = "party",
+				["arena"] = {
+					["priority"] = {
+						["dispel"] = 1,
+						["interrupt"] = 1,
+						["trinket"] = 1,
+						["covenant"] = 1,
+						["offensive"] = 1,
+						["disarm"] = 1,
+					},
+				},
+				["visibility"] = {
+					["none"] = true,
+				},
+			},
+			["General"] = {
+				["fonts"] = {
+					["optionSmall"] = {
+						["size"] = 11,
+					},
+				},
+			},
+			["tooltipID"] = false,
+		},
+	},
+}

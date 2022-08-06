@@ -1,0 +1,14 @@
+
+RaiderIO_Config = {
+}
+RaiderIO_LastCharacter = "us-Jedo-stormrage"
+RaiderIO_MissingCharacters = {
+	["us-Gazekk-stormrage"] = true,
+	["us-Celrinna-stormrage"] = true,
+	["us-Thaha-stormrage"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

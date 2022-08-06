@@ -1,0 +1,26 @@
+VER 3 0100000000000012 "Bruma" "ABILITY_MONK_SURGINGMIST"
+#showtooltip
+/cast [@mouseover, nodead, help][@target, nodead, help] [@player]Bruma Ascendente
+END
+VER 3 010000000000000F "Detox" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help, nodead] Detox; Detox
+END
+VER 3 0100000000000013 "Storm Earth Fire" "SPELL_SANDSTORM"
+#showtooltip
+/cast [@mouseover,harm,exists][] Tempestade, Terra e Fogo
+END
+VER 3 010000000000000E "Storm Earth Fire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, nodead] Storm, Earth, and Fire
+END
+VER 3 010000000000000C "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1OM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000D "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Lüa[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000015 "ZGVMacro1" "0"
+/target Master Hight
+/run ZGV:MRM():CG(2,1)
+END

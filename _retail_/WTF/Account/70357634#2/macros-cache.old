@@ -1,0 +1,63 @@
+VER 3 0000000000000029 "AbandonAllQuests" "254288"
+/run for i=1,C_QuestLog.GetNumQuestLogEntries() do C_QuestLog.SetSelectedQuest(C_QuestLog.GetInfo(i).questID); C_QuestLog.SetAbandonQuest(); C_QuestLog.AbandonQuest() end;
+END
+VER 3 0000000000000023 "Cam" "1109101"
+/console actioncam basic
+END
+VER 3 0000000000000027 "CHAT" "133015"
+/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+END
+VER 3 0000000000000024 "Desencantar" "132853"
+/lançar [mouseover, nochanneling] Desencantar
+END
+VER 3 0000000000000010 "Follower" "SPELL_MISC_PETHEAL"
+/targetexact Delvar Ironfist
+/focus [button:1]
+/clearfocus [button:2]
+END
+VER 3 0000000000000028 "HealthBarFix" "237216"
+/console nameplateShowOnlyNames 0
+END
+VER 3 0000000000000031 "innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Innervate; Innervate
+END
+VER 3 0000000000000034 "Main" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Kindred Spirits
+/cast Ravenous Frenzy
+/cast Adaptive Swarm
+/cast Convoke the Spirits
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Kindred Spirits" or G"Ravenous Frenzy" or G"Adaptive Swarm" or G"Convoke the Spirits")
+END
+VER 3 0000000000000038 "R /1" "3717281"
+/1 Raiding Group BR (CORE) |cff82c5ff|HclubTicket:P7Z7pkJCmpG|h[Join: Projeto A]|h|r - SEASON 4 - Procurando DPS e HEALER!!! || Horários [TER e QUI, 22h-00h || DOM, 21h-00h]
+END
+VER 3 0000000000000039 "R /2" "3717274"
+/2 Raiding Group BR (CORE) |cff82c5ff|HclubTicket:P7Z7pkJCmpG|h[Join: Projeto A]|h|r - SEASON 4 - Procurando DPS e HEALER!!! || Horários [TER e QUI, 22h-00h || DOM, 21h-00h]
+END
+VER 3 0000000000000037 "R /4" "3717276"
+/4 Core BR (RAID) |cff82c5ff|HclubTicket:P7Z7pkJCmpG|h[Join: Projeto A]|h|r  Procurando DPS e HEALER!!! || Horários [TER e QUI, 22h-00h || DOM, 21h-00h]
+END
+VER 3 0000000000000035 "self" "136048"
+#showtooltip
+/use [@player] Innervate;Innervate
+END
+VER 3 0000000000000025 "ShowHealing" "136094"
+/console floatingcombattextcombathealing 0
+END
+VER 3 0000000000000033 "Signature" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Door of Shadows
+/cast Soulshape
+/cast Fleshcraft
+/cast Summon Steward
+/run local G=GetSpellInfo SetMacroSpell(GetRunningMacro(), G"Door of Shadows" or G"Soulshape" or G"Fleshcraft"or G"Summon Steward")
+END
+VER 3 0000000000000030 "TRINKET" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 0000000000000032 "WC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, nodead, exists] Wild Charge; Wild Charge
+END

@@ -1,0 +1,30 @@
+
+MuteSoundFileDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Default",
+		["Yvenger - Stormrage"] = "Default",
+		["Eraldd - Goldrinn"] = "Default",
+		["Törinn - Stormrage"] = "Default",
+		["Gehdo - Stormrage"] = "Default",
+		["Tironn - Goldrinn"] = "Default",
+		["Jedo - Stormrage"] = "Default",
+		["Lateef - Goldrinn"] = "Default",
+		["Lüan - Goldrinn"] = "Default",
+		["Nniroh - Stormrage"] = "Default",
+		["Pristo - Goldrinn"] = "Default",
+		["Myron - Goldrinn"] = "Default",
+		["Zhuy - Goldrinn"] = "Default",
+		["Lweng - Goldrinn"] = "Default",
+		["Xiahomem - Stormrage"] = "Default",
+		["Nnirot - Goldrinn"] = "Default",
+		["Törinn - Goldrinn"] = "Default",
+		["Erold - Goldrinn"] = "Default",
+		["Allamar - Goldrinn"] = "Default",
+		["Nniro - Stormrage"] = "Default",
+		["Pocpoc - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

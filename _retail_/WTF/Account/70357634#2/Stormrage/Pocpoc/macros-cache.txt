@@ -1,0 +1,50 @@
+VER 3 0100000000000014 " Silence" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, nodead, harm] Silence; [@target, exists, harm] Silence; Silence
+END
+VER 3 0100000000000013 "Anjo" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, nodead, help] Guardian Spirit; [@target, exists, help] Guardian Spirit; Guardian Spirit
+END
+VER 3 0100000000000010 "Circle" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, nodead, help] Circle of Healing; [@target, exists, help] Circle of Healing; Circle of Healing
+END
+VER 3 0100000000000009 "Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip Purify
+/cast [@mouseover, nodead, help] [@target, exists, help] [help] Purify
+END
+VER 3 010000000000000E "DP" "INV_MISC_QUESTIONMARK"
+#showtooltip Devouring Plague
+/cast [@mouseover, nodead, harm] [@target, exists, harm] [harm] Devouring Plague
+END
+VER 3 0100000000000001 "HealFire" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, harm, nodead, exists] Holy Fire; [@mouseover, help, nodead, exists] Flash Heal; [@target, harm, nodead, exists] Holy Fire; [@target, exists] Flash Heal; [@player] Flash Heal
+END
+VER 3 0100000000000008 "HWS" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, nodead,Holy Word: Serenity; [@target, exists, help] Holy Word: Serenity; Holy Word: Serenity
+END
+VER 3 010000000000000C "MBHEAL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, harm, nodead, exists] Mind Blast; [@mouseover, help, nodead, exists] Shadow Mend; [@target, harm, nodead, exists] Mind Blast; [@target, exists] Shadow Mend; [@player] Shadow Mend
+END
+VER 3 0100000000000006 "NewSmite" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, harm, nodead, exists] Smite; [@mouseover, help, nodead, exists] Renew; [@target, harm, nodead, exists] Smite; [@target, exists] Renew; [@player] Renew
+END
+VER 3 0100000000000012 "PoH" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, nodead, help] Prayer of Healing; [@target, exists, help] Prayer of Healing; Prayer of Healing
+END
+VER 3 010000000000000F "PoHF" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead, exists] Prayer of Mending; [@target, exists] Prayer of Mending; Holy Nova
+END
+VER 3 0100000000000005 "PWS" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, harm, nodead, exists] Shadow Word: Pain; [@mouseover, help, nodead, exists] Power Word: Shield; [@target, harm, nodead, exists] Shadow Word: Pain; [@target, exists] Power Word: Shield;[@player] Power Word: Shield
+END
+VER 3 0100000000000007 "SWD" "INV_MISC_QUESTIONMARK"
+/use [@mouseover, harm, nodead, exists] Shadow Word: Death; [@mouseover, help, nodead, exists] Heal; [@target, harm, nodead, exists] Shadow Word: Death; [@target, exists] Heal; [@player] Heal
+END
+VER 3 010000000000000D "SWD" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Word: Death
+/use [@mouseover, harm, nodead, exists] Shadow Word: Death; [@mouseover, help, nodead, exists] Shadow Mend; [@target, harm, nodead, exists] Shadow Word: Death; [@target, exists] Shadow Mend; [@player] Shadow Mend
+END
+VER 3 010000000000000B "VT" "INV_MISC_QUESTIONMARK"
+#showtooltip Vampiric Touch
+/use [@mouseover, harm, nodead, exists] Vampiric Touch; [@mouseover, help, nodead, exists] Power Word: Shield; [@target, harm, nodead, exists] Vampiric Touch; [@target, exists] Power Word: Shield;[@player] Power Word: Shield
+END

@@ -1,0 +1,50 @@
+
+AddOnSkinsDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Default",
+		["Yvenger - Stormrage"] = "Default",
+		["Eraldd - Goldrinn"] = "Default",
+		["Hokuai - Goldrinn"] = "Default",
+		["Gehdo - Stormrage"] = "Default",
+		["Tironn - Goldrinn"] = "Default",
+		["Jedo - Stormrage"] = "Default",
+		["Lateef - Goldrinn"] = "Default",
+		["Lüan - Goldrinn"] = "Default",
+		["Pocpoc - Stormrage"] = "Default",
+		["Nniroh - Stormrage"] = "Default",
+		["Pristo - Goldrinn"] = "Default",
+		["Myron - Goldrinn"] = "Default",
+		["Nniro - Stormrage"] = "Default",
+		["Törinn - Stormrage"] = "Default",
+		["Huori - Goldrinn"] = "Default",
+		["Hyonu - Goldrinn"] = "Default",
+		["Lweng - Goldrinn"] = "Default",
+		["Nnirot - Goldrinn"] = "Default",
+		["Zhuy - Goldrinn"] = "Default",
+		["Törinn - Goldrinn"] = "Default",
+		["Erold - Goldrinn"] = "Default",
+		["Allamar - Goldrinn"] = "Default",
+		["Nnibop - Goldrinn"] = "Default",
+		["Xiahomem - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Blizzard_AuctionHouseUI"] = false,
+			["SkinTemplate"] = "ClassColor",
+			["DBMRadarTrans"] = true,
+			["DBMSkinHalf"] = true,
+			["EmbedFrameStrata"] = "3-MEDIUM",
+			["DBMFont"] = "Expressway",
+			["Theme"] = "TwoPixel",
+			["Blizzard_Calendar"] = false,
+			["EmbedOoC"] = true,
+			["EmbedSystemDual"] = true,
+			["EmbedOoCDelay"] = 4,
+			["Parchment"] = true,
+		},
+	},
+}
+AddOnSkinsDS = {
+	[4.58] = {
+	},
+}

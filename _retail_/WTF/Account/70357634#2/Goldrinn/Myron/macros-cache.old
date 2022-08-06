@@ -1,0 +1,8 @@
+VER 3 0100000000000002 " " "237560"
+/cancelaura Círculo Demoníaco
+END
+VER 3 0100000000000001 " " "237559"
+#showtooltip
+/stopcasting
+/cast Círculo Demoníaco(Evocar)
+END

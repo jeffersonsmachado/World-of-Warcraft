@@ -1,0 +1,38 @@
+
+HandyNotes_ShadowlandsDB = {
+	["profileKeys"] = {
+		["Jouw - Stormrage"] = "Default",
+		["Xiahomem - Stormrage"] = "Default",
+		["Yvenger - Stormrage"] = "Default",
+		["Eraldd - Goldrinn"] = "Default",
+		["Pocpoc - Stormrage"] = "Default",
+		["Gehdo - Stormrage"] = "Default",
+		["Tironn - Goldrinn"] = "Default",
+		["Jedo - Stormrage"] = "Default",
+		["Allamar - Goldrinn"] = "Default",
+		["Nniroh - Stormrage"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["icon_display_echoed_jiros"] = true,
+			["icon_display_pet_battles"] = false,
+			["icon_display_puzzle_caches"] = false,
+			["icon_display_concordances"] = false,
+			["icon_display_misc"] = false,
+			["icon_scale_rares"] = 1.400000095367432,
+			["icon_display_code_creature"] = false,
+			["icon_scale_treasures"] = 1.600000143051148,
+			["icon_display_shrouded_cyphers"] = false,
+			["icon_display_zereth_caches"] = false,
+			["icon_display_proto_materials"] = false,
+			["icon_alpha_rares"] = 0.6200000047683716,
+			["icon_display_fugitives"] = false,
+			["icon_display_rares"] = false,
+			["icon_display_treasures"] = false,
+			["icon_display_mawsworn_supply_cache"] = false,
+			["icon_display_exile_tales"] = false,
+			["icon_display_inquisitors"] = false,
+			["icon_display_protoform_schematics"] = false,
+		},
+	},
+}

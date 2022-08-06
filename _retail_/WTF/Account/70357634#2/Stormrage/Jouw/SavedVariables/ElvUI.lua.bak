@@ -1,0 +1,97 @@
+
+ElvCharacterDB = {
+	["ConvertKeybindings"] = true,
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"asmonbald is kelthuzad?", -- [1]
+			"Oza-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Oza-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"Player-60-0EC0C6B1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaOza|r",
+			[51] = 1658762765,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"yes", -- [1]
+			"Berrnus-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Berrnus-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"Player-60-0EC0C37B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Berrnus|r",
+			[51] = 1658762769,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"what am i", -- [1]
+			"Oza-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Oza-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-60-0EC0C6B1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaOza|r",
+			[51] = 1658762772,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"unless he has changed", -- [1]
+			"Berrnus-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Berrnus-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-60-0EC0C37B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Berrnus|r",
+			[51] = 1658762774,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+	},
+}

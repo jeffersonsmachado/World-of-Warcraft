@@ -1,0 +1,60 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Word of Glory; Word of Glory
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Light of the Martyr; Light of the Martyr
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Holy Shock; Holy Shock
+END
+VER 3 010000000000000E "B2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Beacon of Faith; Beacon of Faith
+END
+VER 3 0100000000000004 "Beacon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Beacon of Light; Beacon of Light
+END
+VER 3 010000000000000C "BF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Bestow Faith; Bestow Faith
+END
+VER 3 010000000000000B "BoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Blessing of Freedom; Blessing of Freedom
+END
+VER 3 0100000000000008 "BoP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Blessing of Protection; Blessing of Protection
+END
+VER 3 0100000000000007 "Bubble" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, no harm] Divine Shield; Divine Shield
+END
+VER 3 0100000000000005 "Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Cleanse; Cleanse
+END
+VER 3 0100000000000006 "Heal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Flash of Light; Flash of Light
+END
+VER 3 010000000000000A "HL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Holy Light; Holy Light
+END
+VER 3 010000000000000F "HoW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, harm, exist] Hammer of Wrath; Hammer of Wrath
+END
+VER 3 0100000000000009 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Lay on Hands; Lay on Hands
+END
+VER 3 010000000000000D "Sac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, exist] Blessing of Sacrifice; Blessing of Sacrifice
+END

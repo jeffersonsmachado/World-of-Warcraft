@@ -1,0 +1,28 @@
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover,help,nodead] Earth Shield; [@mouseover,harm,nodead] Frost Shock; [@target,exists,harm] Frost Shock; [@target, exists, help] Earth Shield; Earth Shield
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover, help, nodead] Chain Heal; [@mouseover, harm, nodead] Chain Lightning; [@target, exists, harm] Chain Lightning; [@target, exists, help] Chain Heal; Chain Heal
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover,help,nodead] Riptide; [@mouseover,harm,nodead] Flame Shock; [@target,exists,harm] Flame Shock; [@target, exists, help] Riptide; Riptide
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Lava Burst
+/use [@mouseover, help, nodead] Healing Wave; [@mouseover, harm, nodead] Lava Burst; [@target, exists, harm] Lava Burst; [@target, exists, help] Healing Wave; Healing Wave
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,harm,nodead] [] Wind Shear
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+/use [@mouseover,help,nodead] Healing Surge; [@mouseover,harm,nodead] Lightning Bolt; [@target,exists,harm] Lightning Bolt; [@target, exists,help] Healing Surge; Healing Surge
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, help, nodead] [@target, exists] [help] [] Purify Spirit
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover, help, nodead] [@target, exists] [help] [] Cleanse Spirit
+END
+VER 3 0100000000000009 "Flame" "INV_MISC_QUESTIONMARK"
+/use [@mouseover,help,nodead] Riptide; [@mouseover,harm,nodead] Flame Shock; [@target,exists,harm] Flame Shock; Flame Shock
+END

@@ -1,0 +1,69 @@
+VER 3 010000000000004A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, harm, nodead, exists] Sunfire; [@mouseover, help, nodead, exists] Swiftmend; Sunfire
+END
+VER 3 0100000000000049 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, harm, nodead, exists] Moonfire; [@mouseover, help, nodead, exists] Rejuvenation; Moonfire
+END
+VER 3 0100000000000048 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Regrowth; Regrowth
+END
+VER 3 0100000000000044 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Rejuvenation; Rejuvenation
+END
+VER 3 0100000000000045 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Lifebloom; Lifebloom
+END
+VER 3 0100000000000046 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Ironbark; Ironbark
+END
+VER 3 0100000000000047 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Wild Growth; Wild Growth
+END
+VER 3 010000000000004C " " "INV_MISC_QUESTIONMARK"
+#showtooltip Starfire
+/use [@target, harm, nodead, exists] Starfire; [@target, help, nodead, exists] Swiftmend; Swiftmend
+END
+VER 3 010000000000004D " " "INV_MISC_QUESTIONMARK"
+#showtooltip Wrath
+/use [@target, harm, nodead, exists] Wrath; [@target, help, nodead, exists] Regrowth; Regrowth
+END
+VER 3 010000000000004B " Swift" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Swiftmend; [@target, harm, nodead, exists, stance:2] Ferocious Bite; Swiftmend
+END
+VER 3 0100000000000051 "Bloom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Lifebloom; [@target, harm, nodead, exists, stance:4] Starsurge; [@target, harm, nodead, exists, stance:2,talent:3/2] Rip; [@target, help, nodead, exists] Lifebloom; Lifebloom
+END
+VER 3 0100000000000055 "clear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Nature's Cure; Nature's Cure
+END
+VER 3 0100000000000054 "Moon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/2] Fury of Elune; [talent:7/3] New Moon
+END
+VER 3 0100000000000050 "Regro" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Regrowth; [@target, harm, nodead, exists, stance:2,talent:3/2] Rake; [@target, harm, nodead, exists, nostance:2, talent:3/1] Starfire; [@target, help, nodead, exists] Regrowth; Regrowth
+END
+VER 3 010000000000004E "Reju" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover, help, nodead, exists] Rejuvenation; [@target, harm, nodead, exists, stance:2] Shred; [@target, harm, nodead, exists, nostance:2] Wrath; [@target, help, nodead, exists] Rejuvenation; Rejuvenation
+END
+VER 3 0100000000000053 "Stellar" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@target, harm, nodead, exists, talent:6/3] Fury of Elune; [@target, help, nodead, exists] Wild Growth; Wild Growth
+END
+VER 3 010000000000004F "Travel" "136103"
+#showtooltip
+/run if (not UnitAffectingCombat("player")) and (GetUnitSpeed("player")==0) and IsOutdoors() then if IsUsableItem(94154) then CallCompanion("MOUNT", 2) else CallCompanion("MOUNT", 1) end end
+/cast [indoors] Cat Form; Travel Form
+END
