@@ -1,12 +1,12 @@
 Data/*
 
-_retail_/blob_storage/*
-_retail_/
-
 Launcher.db
 .product.db
 .patch.result
 .build.info
+World of Warcraft Launcher.exe
+
+_retail_/blob_storage/*
 _retail_/Wow.exe
 _retail_/dxilconv7.dll
 _retail_/DBGHELP.DLL
